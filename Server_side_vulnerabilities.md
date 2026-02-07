@@ -14,3 +14,13 @@
    ![alt text](src/IMG/image-4.png)
 **6. Lakukan hal yang sama pada password tapi dengan usename yang sudah terisi dengan yang valid.**
    ![alt text](src/IMG/image-5.png)
+
+### Lab: 2FA simple bypass
+> Two-Factor Authentication (2FA) seharusnya mempunyai dua tahap keamanan: username + password dan kode verifikasi. Sering terjadi beberapa kasus dibeberapa website 2FA user login menggunakan username + password lalu diarahkan ke halaman input kode verifikasi atau OTP, tapi secara system user sudah dianggap telah login
+
+**1. Login menggunakan username dan password yang sudah disediakan.**
+![alt text](src/IMG_2FA/image.png)
+**2. Ganti url halaman input kode verifikasi**
+![alt text](src/IMG_2FA/image-1.png)
+**3. dan berhasil**
+![alt text](src/IMG_2FA/image-2.png)
